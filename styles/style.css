@@ -1,0 +1,199 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+nav {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+main {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+article {
+
+    column-count: 2;
+    column-gap: 30px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+a {
+    text-decoration: none;
+    color:grey;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#73b311;
+}
+
+a:active {
+    text-decoration: none;
+    color:#73b311;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#73b311;
+}
+
+/*-----------------HEADER-----------------*/
+
+.header {
+    height: 80px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.header__logo {
+    position: absolute;
+    left: 7.5%;
+}
+
+.header__contact {
+    color: grey;
+    position: absolute;
+    right: 7.5%;
+}
+
+.header__contact__item {
+    font-size: 14px;
+    margin: 5px 10px;
+}
+
+.header__contact__item--bigger {
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+
+/*-----------------NAV-----------------*/
+
+.menu-principal {
+    display: inline-flex;
+}
+
+.menu-principal__li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 5px 18px;
+}
+
+/*-----------------MAIN-----------------*/
+
+.tipo-viaje {
+    border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 20px;
+}
+
+.menu-secundario {
+    display: inline-flex;
+    margin-top: 0px;
+}
+
+.menu-secundario__li {
+    list-style: none;
+    background-color: #73b311;
+    color: white;
+    padding: 5px 12px;
+    margin: 0px 8px;
+    font-size: 14px;
+}
+
+.menu-secundario__li i{
+    font-size: 10px;
+}
+
+
+/*-----------------OFERTAS-----------------*/
+
+.oferta {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.oferta__img {
+    width: 100%;
+}
+
+.oferta__content {
+    padding: 0px 20px 20px 20px;
+}
+
+.oferta__content__tittle {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 0px;
+}
+
+.oferta__content__group {
+    column-count: 2;
+    margin-top: 50px;
+}
+
+.oferta__content__price {
+    color: #73b311;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.oferta__content__price::before{
+    content: "desde";
+    font-size: small;
+    font-weight: lighter;
+    color: grey;
+    position: absolute;
+    line-height: 1px;
+}
+
+.oferta__content__button {
+    background-color: white;
+    border: 2px solid #73b311;
+    padding: 8px 20px;
+    float: right;
+}
+
+.oferta__content__button a {
+    text-transform: uppercase;
+    color: #73b311;
+    font-weight: 600;
+}
+
+/*-----------------FOOTER-----------------*/
+
+.footer {
+    height: 200px;
+    position: relative;
+    padding-top: 30px;
+    background-color: white;
+    color: grey;
+}
+
+.footer__logo {
+    position: absolute;
+    left: 7.5%;
+}
+
+.footer__rrss {
+    position: absolute;
+    right: 7.5%;
+}
+
+
+.footer__rrss__item {
+    color: #73b311;
+    font-size: 32px;
+}
