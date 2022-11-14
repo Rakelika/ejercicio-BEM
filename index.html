@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Ejercicio BEM</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./imagenes/logo-viajes-corte-ingles.png" alt="Logotipo El Corte Inglés">
+        </div>
+        <div class="header__contact">
+           <p><span class="header__contact__item"><i class="fa-solid fa-location-dot"></i> Agencias</span>|<span class="header__contact__item"><i class="fa-solid fa-circle-info"></i> Preguntas frecuentes</span>|<span class="header__contact__item"><i class="fa-solid fa-user"></i> Identifícate</span>|<span class="header__contact__item--bigger"><i class="fa-solid fa-phone"></i> 911 22 00 44</span> </p>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu-principal">
+            <li class="menu-principal__li">Multidestino</li>
+            <li class="menu-principal__li">Vuelo + Hotel</li>
+            <li class="menu-principal__li">Circuitos</li>
+            <li class="menu-principal__li">Cruceros</li>
+            <li class="menu-principal__li">Ofertas</li>
+            <li class="menu-principal__li">Disney</li>
+            <li class="menu-principal__li">Portaventura</li>
+            <li class="menu-principal__li">Caribe</li>
+            <li class="menu-principal__li">Hoteles</li>
+            <li class="menu-principal__li">Vuelos</li>
+            <li class="menu-principal__li">Trenes</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="tipo-viaje">
+            <p><a href="index.html">Inicio</a> > <a href="#">Ofertas</a></p>
+            <ul class="menu-secundario">
+                <li class="menu-secundario__li">Zona <i class="fa-solid fa-chevron-down"></i></li>
+                <li class="menu-secundario__li">Duración <i class="fa-solid fa-chevron-down"></i></li>
+                <li class="menu-secundario__li">Regimen alimenticio <i class="fa-solid fa-chevron-down"></i></li>
+                <li class="menu-secundario__li">Experiencia <i class="fa-solid fa-chevron-down"></i></li>
+                <li class="menu-secundario__li">Viajero <i class="fa-solid fa-chevron-down"></i></li>
+                <li class="menu-secundario__li">Tipo viaje <i class="fa-solid fa-chevron-down"></i></li>
+                <li class="menu-secundario__li">Precios <i class="fa-solid fa-chevron-down"></i></li>
+            </ul>
+        </div>
+        <article>
+            <section class="oferta">
+                <img class="oferta__img" src="./imagenes/oferta-navidad-viaje.jpg" alt="Oferta de viaje Navidad">
+                <div class="oferta__content">
+                    <h3 class="oferta__content__tittle">Navidades por el Rin con Croisieurope</h3>
+                    <p class="oferta__content__text">Disfruta de la magia navideña, sabores y tradiciones de adviento en un crucero por el Rin.</p>
+                    <div class="oferta__content__group">
+                        <p class="oferta__content__price">878€</p>
+                        <button class="oferta__content__button"><a href="#">Más información <i class="fa-solid fa-angle-down"></i></a></button>
+                    </div>
+                </div>
+            </section>
+            <section class="oferta">
+                <img class="oferta__img" src="./imagenes/oferta-viaje-roma-venecia.jpg" alt="Oferta de viaje a Roma y Venecia">
+                <div class="oferta__content">
+                    <h3 class="oferta__content__tittle">Roma y Venecia</h3>
+                    <p class="oferta__content__text">Lo mejor de Roma y Venecia en este viaje que te ofrecemos.</p>
+                    <div class="oferta__content__group">
+                        <p class="oferta__content__price">380€</p>
+                        <button class="oferta__content__button"><a href="#">Más información <i class="fa-solid fa-angle-down"></i></a></button>
+                    </div>
+                </div>
+            </section>
+            <section class="oferta">
+                <img class="oferta__img" src="./imagenes/oferta-viaje-nueva-york.jpg" alt="Oferta de viaje a Nueva York">
+                <div class="oferta__content">
+                    <h3 class="oferta__content__tittle">Escápate a Nueva York</h3>
+                    <p class="oferta__content__text">6 días / 4 noches. Descubre la ciudad que nunca duerme con vuelos y hotel de 4* incluidos.</p>
+                    <div class="oferta__content__group">
+                        <p class="oferta__content__price">686€</p>
+                        <button class="oferta__content__button"><a href="#">Más información <i class="fa-solid fa-angle-down"></i></a></button>
+                    </div>
+                </div>
+            </section>
+            <section class="oferta">
+                <img class="oferta__img" src="./imagenes/oferta-viaje-navidad-laponia.jpg" alt="Oferta de viaje a Laponia en familia">
+                <div class="oferta__content">
+                    <h3 class="oferta__content__tittle">Laponia en familia en Navidad</h3>
+                    <p class="oferta__content__text">5 días / 4 noches con vuelos, traslados y excursiones en hotel 4*.</p>
+                    <div class="oferta__content__group">
+                        <p class="oferta__content__price">3.083€</p>
+                        <button class="oferta__content__button"><a href="#">Más información <i class="fa-solid fa-angle-down"></i></a></button>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="./imagenes/logo-viajes-corte-ingles.png" alt="Logotipo El Corte Inglés">
+            <p>© Viajes El Corte Inglés 2022. Todos los derechos reservados</p>
+        </div>
+        <div class="footer__rrss">
+            <p>Síguenos en:</p>
+            <p><i class="fa-brands fa-square-facebook footer__rrss__item"></i> <i class="fa-brands fa-square-instagram footer__rrss__item"></i> <i class="fa-brands fa-square-twitter footer__rrss__item"></i> <i class="fa-brands fa-square-youtube footer__rrss__item"></i></p>
+        </div>
+    </footer>
+    
+</body>
+</html>
